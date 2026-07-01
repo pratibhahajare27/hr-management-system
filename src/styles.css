@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+:root {
+    --primary: #2563eb;
+    --secondary: #1e293b;
+    --bg: #f8fafc;
+    --card-bg: #ffffff;
+    --text-dark: #0f172a;
+    --text-light: #64748b;
+    --border: #e5e7eb;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Intel, Arial, sans-serif;
+}
+
+body {
+    background: var(--bg);
+    color: var(--text-dark);
+
+}
