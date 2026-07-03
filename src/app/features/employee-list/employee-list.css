@@ -1,0 +1,30 @@
+.h2 {
+    padding: 24px;
+    text-align: center;
+
+}
+
+.table {
+    width: calc(100% - 48px);
+    margin: 0 24px;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    background: var(--card-bg);
+
+
+
+}
+
+.th,
+td {
+    padding: 14px;
+    text-align: center;
+    border-bottom: 1px solid var(--border);
+
+}
+
+.th {
+    background: #f8fafc;
+    color: var(--text-light);
+}

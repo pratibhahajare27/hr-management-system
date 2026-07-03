@@ -1,18 +1,68 @@
 {
-    "employee": [
-        {
-            "id": 1,
-            "name": "Amit Sharma",
-            "email": "amit@gmail.com",
-            "role": "Developer",
-            "Department": "IT"
-        },
-        {
-            "id": 2,
-            "name": "sumit Sharma",
-            "email": "sumit@gmail.com",
-            "role": " Software Developer",
-            "Department": "IT"
-        }
-    ]
+  "employee": [
+    {
+      "id": "1",
+      "name": "Amit Sharma",
+      "email": "amit@gmail.com",
+      "role": "Developer",
+      "Department": "IT"
+    },
+    {
+      "id": "2",
+      "name": "sumit Sharma",
+      "email": "sumit@gmail.com",
+      "role": " Software Developer",
+      "Department": "IT"
+    },
+    {
+      "id": "13c7",
+      "name": "",
+      "email": "",
+      "role": "",
+      "department": ""
+    },
+    {
+      "id": "df5a",
+      "name": null,
+      "email": "pratibhah033@gmail.com",
+      "role": "developer",
+      "department": "it"
+    },
+    {
+      "id": "8cae",
+      "name": "",
+      "email": "",
+      "role": "",
+      "department": ""
+    },
+    {
+      "id": "ee36",
+      "name": null,
+      "email": "pratibhah033@gmail.com",
+      "role": "developer",
+      "department": "it"
+    },
+    {
+      "id": "c405",
+      "name": "",
+      "email": "",
+      "role": "",
+      "department": ""
+    },
+    {
+      "id": "cb12",
+      "name": null,
+      "email": "pratibhah033@gmail.com",
+      "role": "developer",
+      "department": "it"
+    },
+    {
+      "id": "f8a5",
+      "name": "",
+      "email": "",
+      "role": "",
+      "department": ""
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
