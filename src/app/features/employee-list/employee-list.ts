@@ -14,7 +14,7 @@ export class EmployeeList {
   private fb = inject(FormBuilder);
 
   private empService = inject(Employee)
-  employee = signal<any[]>([]);
+  employees = signal<any[]>([]);
 
   selectedEmployeeId = signal<number | null>(null);
 
@@ -32,7 +32,7 @@ export class EmployeeList {
 
   loadEmployees() {
     this.empService.getEmplyees().subscribe((data) => {
-      this.employee.set(data);
+      this.employees.set(data);
     });
   }
 
@@ -57,6 +57,7 @@ export class EmployeeList {
     this.employeeForm.reset();
   }
   editEmployee(emp: any) {
+    this.selectedEmployeeId.set(emp.id);
     this.employeeForm.setValue({
       name: emp.name,
       email: emp.email,

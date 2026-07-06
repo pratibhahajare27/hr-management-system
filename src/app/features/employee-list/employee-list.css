@@ -1,30 +1,73 @@
-.h2 {
+h2 {
     padding: 24px;
     text-align: center;
-
 }
 
-.table {
+table {
     width: calc(100% - 48px);
-    margin: 0 24px;
     border-collapse: collapse;
     border-radius: 10px;
     overflow: hidden;
     background: var(--card-bg);
-
-
+    margin-left: 100px;
 
 }
 
-.th,
+th,
 td {
-    padding: 14px;
+    padding-top: 24px;
     text-align: center;
     border-bottom: 1px solid var(--border);
 
 }
 
-.th {
+th {
+    padding: 24px;
+    text-align: center;
     background: #f8fafc;
     color: var(--text-light);
+}
+
+
+
+form {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 10px;
+    padding: 0 24px 24px;
+    margin-left: 200px;
+}
+
+input {
+    padding: 10px 12px;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+}
+
+input:focus {
+    outline: none;
+    border-color: var(--primary);
+}
+
+button {
+    background: var(--primary);
+    color: #fff;
+    border: none;
+    padding: 10px 16px;
+    margin-right: 8px;
+    border-radius: 6px;
+    cursor: pointer;
+
+}
+
+button.delete {
+    background: #ef4444;
+}
+
+button.cancel {
+    background: #6b7280;
+}
+
+button:hover {
+    opacity: 0.9;
 }
