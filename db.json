@@ -15,5 +15,24 @@
       "id": "a260"
     }
   ],
-  "$schema": "./node_modules/json-server/schema.json"
+  "Leaves": [
+    {
+      "id": "1",
+      "employee": "Pratibha hajare",
+      "reason": "medical",
+      "status": "Approved"
+    },
+    {
+      "id": "2",
+      "employee": "jhon zha",
+      "reason": "medical",
+      "status": "pending"
+    },
+    {
+      "id": "1",
+      "employee": "shruti s",
+      "reason": "personal",
+      "status": "Approved"
+    }
+  ]
 }
