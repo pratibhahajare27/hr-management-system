@@ -1,7 +1,7 @@
 {
   "employee": [
     {
-      "name": "",
+      "name": "yash",
       "email": "pratibhah033@gmail.com",
       "role": "developer",
       "department": "ITr",
@@ -13,6 +13,13 @@
       "role": "QA engineer",
       "department": "it",
       "id": "a260"
+    },
+    {
+      "id": "e126",
+      "name": null,
+      "email": null,
+      "role": null,
+      "department": null
     }
   ],
   "Leaves": [
@@ -34,5 +41,6 @@
       "reason": "personal",
       "status": "Approved"
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }

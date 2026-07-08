@@ -1,26 +1,36 @@
 .sidebar {
-
-    height: 100vh;
-    background-color: var(--secondary);
-    color: white;
-    padding: 24px;
     position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 250px;
+    height: 100vh;
+
+    box-sizing: border-box;
+
+    padding: 24px;
+
+    background: #1e293b;
+    color: white;
 }
 
 .sidebar h2 {
-    margin-bottom: 30px;
+    margin: 0 0 40px;
+    font-size: 20px;
 }
 
 .sidebar a {
     display: block;
-    padding: 12px;
-    color: #cbd5f5;
+    padding: 14px 12px;
+    margin-bottom: 10px;
+    color: #cbd5e1;
     text-decoration: none;
     border-radius: 6px;
-    margin-bottom: 8px;
+    transition: 0.3s;
 }
 
-.sidebar a:hover {
-    background-color: rgba(255, 255, blue255, 0.1);
+.sidebar a:hover,
+.sidebar a.active {
+    background: #334155;
     color: white;
 }

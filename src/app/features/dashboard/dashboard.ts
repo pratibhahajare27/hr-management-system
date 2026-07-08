@@ -18,12 +18,12 @@ export class Dashboard {
 
   ngOnInit() {
     this.employeeService.getEmplyees().subscribe(data => {
-
-    }
-    )
-    this.leaveService.getLeaves().subscribe(data => {
       this.totalEmployees.set(data.length);
-    })
+    });
+
+    this.leaveService.getLeaves().subscribe(data => {
+      this.totalLeaves.set(data.length);
+    });
   }
   showEmpChart() {
     this.activeChart.set('employees');
