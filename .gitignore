@@ -4,7 +4,7 @@
 /dist
 /tmp
 /out-tsc
-/bazel-out
+/bazel-out 
 
 # Node
 /node_modules
@@ -38,6 +38,6 @@ testem.log
 /typings
 __screenshots__/
 
-# System files
+# System files 
 .DS_Store
 Thumbs.db
